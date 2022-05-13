@@ -21,6 +21,10 @@ public class Seccion {
         this.texto = texto;
     }
 
+    public Seccion() {
+
+    }
+
     public int getId() {
         return id;
     }
