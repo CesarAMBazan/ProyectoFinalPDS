@@ -1,23 +1,29 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.sidphillips.modelo;
 
 import java.util.ArrayList;
 
 /**
- *
- * @author Zerol
+ * @author Cesar Arturo Mejia Bazan - 2182005565
+ * @author Enrique Ramirez Martinez - 2182000079
+ * @author Rojas Piña Efraín Ulises - 2172001457
  */
 public class ReportePdf {
+    /**
+     * Atributos de la clase
+     */
     private ArrayList<Seccion> seccionPA;
     private String nombrePA;
     private String rutaDestino;
 
+    /**
+     * Constructor
+     */
     public ReportePdf() {
     }
 
+    /**
+     * Getters y Setters
+     */
     public ArrayList<Seccion> getSeccionPA() {
         return seccionPA;
     }
@@ -41,10 +47,12 @@ public class ReportePdf {
     public void setRutaDestino(String rutaDestino) {
         this.rutaDestino = rutaDestino;
     }
-    
+
+    /**
+     * Método toString
+     */
     @Override
-   public String toString()
-   {
-       return "El nombre del archivo es: " + nombrePA + "\nCon la ruta: " + rutaDestino;
-   }
+    public String toString() {
+        return "El nombre del archivo es: " + nombrePA + "\nCon la ruta: " + rutaDestino;
+    }
 }

@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package com.sidphillips.vista;
 
 import java.io.IOException;
@@ -14,8 +11,9 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import org.apache.commons.io.FilenameUtils;
 
 /**
- *
- * @author enriq
+ * @author Cesar Arturo Mejia Bazan - 2182005565
+ * @author Enrique Ramirez Martinez - 2182000079
+ * @author Rojas Piña Efraín Ulises - 2172001457
  */
 public class main extends javax.swing.JFrame {
     String rutaFormato;
